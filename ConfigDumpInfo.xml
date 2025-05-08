@@ -4,7 +4,8 @@
 		<Metadata name="Catalog.Сотрудники" id="2f4ae23b-7ff0-4244-a78b-d44ce5333367" configVersion="21e4279e3c2a7e4fb53ab62f64f8213200000000">
 			<Metadata name="Catalog.Сотрудники.Attribute.ФИО" id="ed264f99-e045-4797-83a3-31a46b331bc5"/>
 		</Metadata>
-		<Metadata name="Configuration.Конфигурация" id="0f0205eb-d8ff-497a-810d-7df0dec65917" configVersion="ba6f4f4bab14e74c8f25c257d2cd3aea00000000"/>
+		<Metadata name="Catalog.ФизическиеЛица" id="c4e88042-6fab-42e6-a6bf-8752ec22c8b7" configVersion="614fd64214c4d84cb4709b99a9b4080100000000"/>
+		<Metadata name="Configuration.Конфигурация" id="0f0205eb-d8ff-497a-810d-7df0dec65917" configVersion="0a3c318148090646aca689087c90198800000000"/>
 		<Metadata name="Language.Русский" id="fbb0a060-7eb8-448b-b432-cd3ff6f3ba18" configVersion="2ed07beb02f46448b60f1bad574147e200000000"/>
 	</ConfigVersions>
 </ConfigDumpInfo>
