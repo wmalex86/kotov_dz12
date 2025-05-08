@@ -247,6 +247,7 @@
 			<Language>Русский</Language>
 			<Catalog>Сотрудники</Catalog>
 			<Catalog>ФизическиеЛица</Catalog>
+			<Document>Документ1</Document>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>
