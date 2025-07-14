@@ -1,7 +1,7 @@
 pipeline
 {
     agent {
-        label '1С'
+        label '1C'
     }
 
     environment {
