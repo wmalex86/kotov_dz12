@@ -1,9 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<testsuites name="CheckConfig.base" tests="1" failures="1" skipped="0" time="10800.6471587">
+<testsuites name="CheckConfig.base" tests="1" failures="0" skipped="0" time="10800.5088629">
     <testsuite name="CheckConfig.base">
         <properties/>
-        <testcase classname="CheckConfig.base.Ошибка" name="Информационная">
-            <failure type="ERROR" message="база не обнаружена!"/>
-        </testcase>
+        <testcase classname="CheckConfig.base" name="Все сообщения" time="10800.5088629" status="passed"/>
     </testsuite>
 </testsuites>

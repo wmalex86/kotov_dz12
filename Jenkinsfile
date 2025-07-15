@@ -33,11 +33,11 @@ pipeline
                 bat "chcp 65001\n vrunner init-dev --ibconnection /Fd:\\git\\kotov_dz12\\build\\ib --dt d:\\Distr\\Jenkins\\tmp\\dev.dt --db-user ci-bot --src d:\\git\\kotov_dz12\\src"
             }
         }       
-        //stage("Syntax check") {
-        //     steps {                
-        //         bat "chcp 65001\n vrunner syntax-check"
-        //     }
-        //}
+        stage("Syntax check") {
+            steps {                
+                bat "chcp 65001\n vrunner syntax-check"
+            }
+        }
         // stage("Smoke tests") {
         //     steps {
         //         script {
