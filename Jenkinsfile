@@ -26,18 +26,18 @@ pipeline
     }
 
     stages {
-         stage("Build test base") {
-             steps {                
+        stage("Build test base") {
+            steps {                
                 bat "chcp 65001\n echo Первый этап сборки"
                  //bat "chcp 65001\n vrunner init-dev --dt C:\\jenkins\\template\\dev.dt --src C:\\repo\\jenkins_repo\\src"
                 bat "chcp 65001\n vrunner init-dev --ibconnection /Fd:\\git\\kotov_dz12\\build\\ib --dt d:\\Distr\\Jenkins\\tmp\\dev.dt --db-user ci-bot --src d:\\git\\kotov_dz12\\src"
-             }
-         }       
-        // stage("Syntax check") {
+            }
+        }       
+        stage("Syntax check") {
         //     steps {                
         //         bat "chcp 65001\n vrunner syntax-check"
         //     }
-        // }
+        }
         // stage("Smoke tests") {
         //     steps {
         //         script {
