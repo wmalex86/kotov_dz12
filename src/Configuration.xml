@@ -245,6 +245,7 @@
 		</Properties>
 		<ChildObjects>
 			<Language>Русский</Language>
+			<Role>ПолныеПрава</Role>
 			<Catalog>Сотрудники</Catalog>
 			<Catalog>ФизическиеЛица</Catalog>
 			<Document>Документ1</Document>
