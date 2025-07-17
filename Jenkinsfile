@@ -12,16 +12,18 @@ pipeline
         always {            
             //allure includeProperties: false, jdk: '', results: [[path: 'out/syntax-check/allure'], [path: 'out/smoke/allure/']]
             //junit allowEmptyResults: true , testResults: 'out/smoke/junit/*.xml'
-            bat "echo hello"
+            allure includeProperties: false, jdk: '', results: [[path: 'out/syntax-check/allure']]
+            junit 'out/syntax-check/junit/junit.xml'
+            //bat "echo hello"
         }
 
-         failure {
-             bat "echo failure"
-         }
+         //failure {
+         //    bat "echo failure"
+         //}
 
-         success {
-             bat "echo succes"
-         }
+         //success {
+         //    bat "echo succes"
+         //}
 
     }
 
@@ -31,7 +33,7 @@ pipeline
                 //bat "chcp 65001\n echo Первый этап сборки"
                  //bat "chcp 65001\n vrunner init-dev --dt C:\\jenkins\\template\\dev.dt --src C:\\repo\\jenkins_repo\\src"
                 //bat "chcp 65001\n vrunner init-dev --ibconnection /Fd:\\git\\kotov_dz12\\build\\ib --dt d:\\Distr\\Jenkins\\tmp\\dev.dt --db-user ci-bot --src d:\\git\\kotov_dz12\\src"
-                bat "chcp 65001\n vrunner init-dev --ibconnection /Fd:\\git\\kotov_dz12\\build\\ib --dt d:\\Distr\\Jenkins\\tmp\\dev.dt --src d:\\git\\kotov_dz12\\src"
+                bat "chcp 65001\n vrunner init-dev --dt d:\\Distr\\Jenkins\\tmp\\dev.dt --src d:\\git\\kotov_dz12\\src"
             }
         }       
         stage("Syntax check") {
