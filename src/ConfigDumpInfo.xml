@@ -1,22 +1,22 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.18">
 	<ConfigVersions>
-		<Metadata name="Catalog.Сотрудники" id="2f4ae23b-7ff0-4244-a78b-d44ce5333367" configVersion="8ddea315d4987148a91161d43d3956d100000000">
+		<Metadata name="Catalog.Сотрудники" id="2f4ae23b-7ff0-4244-a78b-d44ce5333367" configVersion="d36a70065d588c499e58fae2c0fbfea200000000">
 			<Metadata name="Catalog.Сотрудники.Attribute.Реквизит2" id="05d522f9-ef3e-4e6e-b2a5-90ea0ab6a88a"/>
 			<Metadata name="Catalog.Сотрудники.Attribute.Реквизит1" id="65dff4c7-bc0e-4167-a7b0-c8b79daffa1f"/>
 			<Metadata name="Catalog.Сотрудники.Attribute.Реквизит3" id="9ca03d91-9e67-4fab-ac22-04988e2c9470"/>
 			<Metadata name="Catalog.Сотрудники.Attribute.ФизическоеЛицо" id="e4e95c09-9b40-4c53-a4b1-f5fe97803964"/>
 			<Metadata name="Catalog.Сотрудники.Attribute.ФИО" id="ed264f99-e045-4797-83a3-31a46b331bc5"/>
 		</Metadata>
-		<Metadata name="Catalog.ФизическиеЛица" id="c4e88042-6fab-42e6-a6bf-8752ec22c8b7" configVersion="58df073919f625428508964bcbad7ba100000000"/>
-		<Metadata name="Configuration.Конфигурация" id="0f0205eb-d8ff-497a-810d-7df0dec65917" configVersion="9d3736d6f5cec64aaa96c19835f6c19200000000"/>
-		<Metadata name="Document.Документ1" id="5951185f-c555-478e-8231-7692ab5ae0b6" configVersion="2149ed9b88e1354693bf074409e0760200000000">
+		<Metadata name="Catalog.ФизическиеЛица" id="c4e88042-6fab-42e6-a6bf-8752ec22c8b7" configVersion="f351fae4ab5a374ab9818d033a0d9b0a00000000"/>
+		<Metadata name="Configuration.Конфигурация" id="0f0205eb-d8ff-497a-810d-7df0dec65917" configVersion="0567a9da4bdf9c4dba73a0311b82b3a200000000"/>
+		<Metadata name="Document.Документ1" id="5951185f-c555-478e-8231-7692ab5ae0b6" configVersion="d2af65cd5cae0144af458a05c79f053700000000">
 			<Metadata name="Document.Документ1.Attribute.Реквизит3" id="2ef50a9b-a589-4a0f-aa0e-f0a63fc3094f"/>
 			<Metadata name="Document.Документ1.Attribute.Реквизит2" id="53f621b9-b865-4177-a52b-d8f36ebb50ca"/>
 			<Metadata name="Document.Документ1.Attribute.Реквизит1" id="5657dc8b-4c33-4ee8-b711-2a9c8db1a4bb"/>
 		</Metadata>
-		<Metadata name="Language.Русский" id="fbb0a060-7eb8-448b-b432-cd3ff6f3ba18" configVersion="fb9e9b71b4763e4d990ddea3e443329900000000"/>
-		<Metadata name="Role.ПолныеПрава" id="e2137922-1a9d-44e1-b59f-4ad488ec6f00" configVersion="9bd42ac7afb09d429ac4cb444f41f50800000000"/>
-		<Metadata name="Role.ПолныеПрава.Rights" id="e2137922-1a9d-44e1-b59f-4ad488ec6f00.0" configVersion="71ef76e65a948742bfb32e75d37f952a00000000"/>
+		<Metadata name="Language.Русский" id="fbb0a060-7eb8-448b-b432-cd3ff6f3ba18" configVersion="c0673d108bff354c9074da8990e9562800000000"/>
+		<Metadata name="Role.ПолныеПрава" id="e2137922-1a9d-44e1-b59f-4ad488ec6f00" configVersion="dd834c381cf4f745b6d95c3d330b3d1c00000000"/>
+		<Metadata name="Role.ПолныеПрава.Rights" id="e2137922-1a9d-44e1-b59f-4ad488ec6f00.0" configVersion="b7daafbab8bdaf4a9b080a956b0caf2200000000"/>
 	</ConfigVersions>
 </ConfigDumpInfo>
