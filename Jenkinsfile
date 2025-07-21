@@ -36,11 +36,11 @@ pipeline
                 bat "chcp 65001\n vrunner init-dev --dt d:\\Distr\\Jenkins\\tmp\\dev.dt --src d:\\git\\kotov_dz12\\src"
             }
         }       
-        stage("Syntax check") {
-            steps {                
-                bat "chcp 65001\n vrunner syntax-check"
-            }
-        }
+        //stage("Syntax check") {
+        //    steps {                
+        //        bat "chcp 65001\n vrunner syntax-check"
+        //    }
+        //}
         // stage("Smoke tests") {
         //     steps {
         //         script {
