@@ -13,7 +13,7 @@ pipeline
             //allure includeProperties: false, jdk: '', results: [[path: 'out/syntax-check/allure'], [path: 'out/smoke/allure/']]
             //junit allowEmptyResults: true , testResults: 'out/smoke/junit/*.xml'
             allure includeProperties: false, jdk: '', results: [[path: 'out/syntax-check/allure']]
-            //junit 'out/syntax-check/junit/junit.xml'
+            junit 'out/syntax-check/junit/junit.xml'
             //bat "echo hello"
         }
 
