@@ -1,0 +1,40 @@
+{
+"uuid": "0e3f5c40-1e5e-4956-b290-e077338b4fe8",
+"historyId": "Тесты \"Открытие форм конфигурации\".УпрФорма # Тесты_ОткрытиеФормКонфигурации.Документ.Документ1 : открытие формы списка",
+"name": "Документ.Документ1 : открытие формы списка",
+"fullName": "",
+"start": 1753199528664,
+"stop": 1753199528799,
+"statusDetails": {
+"known": false,
+"muted": false,
+"flaky": false,
+"message": "",
+"trace": ""
+},
+"status": "passed",
+"stage": "finished",
+"steps": [],
+"parameters": [],
+"labels": [
+{
+"name": "story",
+"value": "УпрФорма # Тесты_ОткрытиеФормКонфигурации"
+},
+{
+"name": "feature",
+"value": "Тесты \"Открытие форм конфигурации\""
+},
+{
+"name": "package",
+"value": "УпрФорма # C:\\Program Files\\OneScript\\lib\\add\\tests\\smoke\\Тесты_ОткрытиеФормКонфигурации.epf"
+},
+{
+"name": "host",
+"value": "Тесты \"Открытие форм конфигурации\""
+}
+],
+"links": [],
+"attachments": [],
+"description": "ТестДолжен_ОткрытьФормуПоПолномуИмениФормы"
+}

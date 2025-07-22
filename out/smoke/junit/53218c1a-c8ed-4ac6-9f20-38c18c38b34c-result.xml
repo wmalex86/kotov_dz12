@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Тесты &quot;Открытие форм конфигурации&quot;" time="0.684" tests="1" failures="0" errors="0" skipped="0">
+	<testsuite name="Тесты &quot;Открытие форм конфигурации&quot;">
+		<testsuite name="УпрФорма # Тесты_ОткрытиеФормКонфигурации">
+			<testcase classname="УпрФорма # Тесты_ОткрытиеФормКонфигурации" name="Справочник.Сотрудники : открытие формы записанного объекта" time="0.684" status="passed"/>
+		</testsuite>
+	</testsuite>
+</testsuites>
