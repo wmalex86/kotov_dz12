@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="smoke" time="0.004" tests="1" failures="0" errors="0" skipped="0">
+	<testsuite name="smoke">
+		<testsuite name="Проверка чтения не-администраторами">
+			<testcase classname="Проверка чтения не-администраторами" name="Есть роли с полными/администраторскими полномочиями чтения - Проверка доступа на Чтение Не-Администраторами" time="0.004" status="passed"/>
+		</testsuite>
+	</testsuite>
+</testsuites>
