@@ -65,15 +65,15 @@ pipeline
                 }                
             }
         } 
-        //stage("Sonar") {
-        //    steps {
-        //        script {
-        //            scannerHome = tool 'sonar-scanner'
-        //        }
-        //        withSonarQubeEnv("sonar") {
-        //            bat "chcp 65001\n ${scannerHome}/bin/sonar-scanner -D sonar.login=sqp_ff1f8486e5db41bcca28e81970a89395690440a4"
-        //        }                
-        //    }
-        //} 
+        stage("Sonar") {
+            steps {
+                script {
+                    scannerHome = tool 'sonar-scanner'
+                }
+                withSonarQubeEnv("SonarQube") {
+                    bat "chcp 65001\n ${scannerHome}/bin/sonar-scanner -D sonar.login=sqa_bee20283b6c1b3193917e6010ac20f6304ebe3e4"
+                }                
+            }
+        } 
     }
 }
